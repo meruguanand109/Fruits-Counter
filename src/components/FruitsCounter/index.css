@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.fruit-img {
+  width: 35%;
+}
+.container {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #ffd569;
+  padding: 40px;
+}
+.count {
+  color: #ffd569;
+}
+.fruit-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+}
+.heading {
+  color: black;
+  font-size: 50px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: #007bff;
+  font-size: 20px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  margin: 15px;
+}
+.fruit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 28px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .fruit-images {
+    flex-direction: column;
+  }
+}
